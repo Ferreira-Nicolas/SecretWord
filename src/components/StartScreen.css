@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Yellowtail&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.start h1 {
+    font-size: 3.5em;
+}
+
+.start p {
+    margin-bottom: 2em;
+    color: #ecfa00;
+}
+
+.secrect_logo {
+    font-family: 'Yellowtail', cursive;
+    color: #fcd0ff;
+    text-shadow:
+        0 0 7px #aa00ff,
+        0 0 10px #8400ff,
+        0 0 21px #ff00e1,
+        0 0 42px rgb(195, 0, 255),
+        0 0 82px rgb(0, 208, 255),
+        0 0 92px rgb(247, 0, 255),
+        0 0 102px rgb(132, 0, 255),
+        0 0 151px rgb(221, 0, 255);
+
+}
+
+.secrect_logo:hover {
+    text-shadow: 0 0 5px rgba(212, 0, 255, 0.519),
+        0 0 25px rgb(195, 0, 255),
+        0 0 50px rgb(195, 0, 255),
+        0 0 100px rgb(195, 0, 255);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+
+
+}
+
+.secrect_logo:not(:hover) {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+
+
+span.word_logo {
+    font-family: 'Bungee', cursive;
+    font-size: larger;
+
+    color: #ffffff;
+    text-shadow:
+        0 0 7px #00fffb,
+        0 0 10px #00fffb35,
+        0 0 151px rgba(0, 225, 255, 0.478);
+}
+
+.word_logo:hover {
+    text-shadow: 0 0 5px rgba(0, 255, 247, 0.519),
+        0 0 25px rgba(0, 238, 255, 0.519),
+        0 0 50px rgba(0, 225, 255, 0.519),
+        0 0 100px rgba(0, 225, 255, 0.519);
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.word_logo:not(:hover) {
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}

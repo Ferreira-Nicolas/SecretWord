@@ -1,0 +1,15 @@
+.score{
+  font-family: 'Work Sans', sans-serif;
+  color: #fcd0ff;
+  font-size: 1.3rem;
+  text-shadow:
+    0 0 7px #aa00ff,
+    0 0 10px #8400ff,
+    0 0 21px #ff00e1,
+    0 0 42px rgb(195, 0, 255),
+    0 0 82px rgb(0, 208, 255),
+    0 0 92px rgb(247, 0, 255),
+    0 0 102px rgb(132, 0, 255),
+    0 0 151px rgb(221, 0, 255);
+
+}

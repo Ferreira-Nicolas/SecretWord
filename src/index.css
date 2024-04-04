@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(18, 15, 25);
+    color: #fff;
+}
+
+button {
+
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #effdff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.9s;
+    transition-property: box-shadow;
+
+
+}
+
+button {
+    background: rgba(0, 234, 255, 0);
+    border: solid 2px rgb(0, 234, 255, 0.8);
+    box-shadow: 0 0 25px rgb(0, 255, 238, 0.519);
+}
+
+button:hover {
+    box-shadow: 0 0 5px rgba(0, 234, 255, 0.519),
+        0 0 25px rgba(0, 242, 255, 0.519),
+        0 0 50px rgba(0, 234, 255, 0.519),
+        0 0 100px rgba(0, 234, 255, 0.519);
+}

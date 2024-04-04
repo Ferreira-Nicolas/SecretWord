@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.game h1 {
+  font-size: 2.5em;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+.points span {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+
+.tip span {
+  font-family: 'Work Sans', sans-serif;
+  color: #fcd0ff;
+  font-size: 1.3rem;
+  text-shadow:
+    0 0 7px #aa00ff,
+    0 0 10px #8400ff,
+    0 0 21px #ff00e1,
+    0 0 42px rgb(195, 0, 255),
+    0 0 82px rgb(0, 208, 255),
+    0 0 92px rgb(247, 0, 255),
+    0 0 102px rgb(132, 0, 255),
+    0 0 151px rgb(221, 0, 255);
+}
+
+.guesses {
+  font-family: 'Work Sans', sans-serif;
+  color: #fcd0ff;
+  font-size: 1.3rem;
+  text-shadow:
+    0 0 7px #aa00ff,
+    0 0 10px #8400ff,
+    0 0 21px #ff00e1,
+    0 0 42px rgb(195, 0, 255),
+    0 0 82px rgb(0, 208, 255),
+    0 0 92px rgb(247, 0, 255),
+    0 0 102px rgb(132, 0, 255),
+    0 0 151px rgb(221, 0, 255);
+
+}
+
+
+.wordContainer {
+  margin: 1.5em;
+  font-family: 'Work Sans', sans-serif;
+  padding: 1.5em;
+  background: rgba(0, 234, 255, 0);
+  border: solid 2px rgb(0, 234, 255, 0.8);
+  box-shadow: 0 0 25px rgb(0, 255, 238, 0.519);
+  display: flex;
+}
+
+.letter,
+.blankSquare {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 70px;
+  line-height: 1.5;
+  border: 1px solid #af47cf00;
+  margin-left: 1px;
+  height: 100px;
+  width: 100px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  color: #212121;
+  font-weight: bold;
+}
+
+.letterContainer p {
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom: 1.2em;
+}
+
+.letterContainer form {
+  display: flex;
+  font-family: 'Work Sans', sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.letterContainer input {
+  font-family: 'Work Sans', sans-serif;
+  height: 50px;
+  width: 50px;
+  font-size: 2em;
+  text-align: center;
+  margin-right: 1em;
+}
+
+span .score {
+  font-size: 1.3rem;
+  color: #fcd0ff;
+  text-shadow:
+    0 0 7px #aa00ff,
+    0 0 10px #8400ff,
+    0 0 21px #ff00e1,
+    0 0 42px rgb(195, 0, 255),
+    0 0 82px rgb(0, 208, 255),
+    0 0 92px rgb(247, 0, 255),
+    0 0 102px rgb(132, 0, 255),
+    0 0 151px rgb(221, 0, 255);
+}
